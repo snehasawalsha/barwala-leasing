@@ -14,7 +14,7 @@ const Home = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         console.log('Form submitted:', formData);
-        // Handle form submission logic here
+        
     };
 
     return (
