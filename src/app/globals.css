@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+/* styles/globals.css */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the height of the float */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite; /* Adjust duration and timing function */
+  }
+  
+  /* 3D Effect */
+  .shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .perspective-1000 {
+    perspective: 1000px; /* Add perspective for 3D effect */
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  /* Inner shadow effect */
+  .bg-gradient-to-t {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), transparent);
+  }
+
+  
