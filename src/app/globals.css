@@ -7,39 +7,70 @@ body {
   overflow-x: hidden;
 }
 
-/* styles/globals.css */
-@keyframes float {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px); /* Adjust the height of the float */
-    }
-    100% {
-      transform: translateY(0);
-    }
+@keyframes rollIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
   }
-  
-  .animate-float {
-    animation: float 3s ease-in-out infinite; /* Adjust duration and timing function */
+  50% {
+    opacity: 1;
   }
-  
-  /* 3D Effect */
-  .shadow-lg {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  100% {
+    transform: translateX(0);
   }
-  
-  .perspective-1000 {
-    perspective: 1000px; /* Add perspective for 3D effect */
-  }
-  
-  .relative {
-    position: relative;
-  }
-  
-  /* Inner shadow effect */
-  .bg-gradient-to-t {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), transparent);
-  }
+}
 
-  
+@keyframes rollInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-rollIn {
+  animation: rollIn 5s forwards;
+}
+
+.animate-rollInRight {
+  animation: rollInRight 5s forwards;
+}
+
+
+.relative {
+    position: relative;
+}
+
+input {
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+}
+
+
+label {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    background: transparent; 
+    padding: 0 6px; 
+}
+
+input:focus + label,
+input.has-value + label {
+    top: -8px;
+    left: 8px;
+    font-size: 12px;
+    color: #ffffff;
+    background: rgb(20, 27, 36); 
+    border-radius: 4px;
+}

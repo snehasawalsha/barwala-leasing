@@ -30,45 +30,56 @@ const About: React.FC = () => {
       <div className="flex flex-col items-center pt-16">
         <h1 className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-custom">{data.vision.title}</h1>
         <div className="flex items-center ">
-          <div className="w-2 h-2 bg-black rounded-full"></div>
+          <div className="w-2 h-2 rounded-full bg-black"></div>
           <div className="w-64 h-0.5 bg-black"></div>
-          <div className="w-2 h-2 border-2 border-black bg-black transform rotate-45"></div>
+          <div className="w-2 h-2 rounded-full bg-black"></div>
         </div>
-        <div className="flex flex-col lg:flex-row items-center justify-between py-8">
-        <div className="lg:w-1/2 mt-6 lg:mt-0">
-          <Image
-            src={data.vision.image}
-            alt={data.vision.title}
-            className="w-full max-w-sm mx-auto"
-            width={500}
-            height={500}
-          />
-        </div>
-      </div>
-        <p className="text-gray-600 mt-4">{data.vision.content}</p>
-      </div>
-      
-
-      <div className="flex flex-col items-center pt-16">        
-          <h2 className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-custom">{data.mission.title}</h2>
-          <div className="flex items-center ">
-            <div className="w-2 h-2 bg-black rounded-full"></div>
-            <div className="w-64 h-0.5 bg-black"></div>
-            <div className="w-2 h-2 border-2 border-black bg-black transform rotate-45"></div>
+        <div className="flex flex-row items-center justify-between py-8">
+          <div className="lg:w-1/2 mt-6 lg:mt-0">
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <p className="text-gray-600">{data.vision.content}</p>
+            </div>
           </div>
           <div className="lg:w-1/2 mt-6 lg:mt-0">
-        <Image
-          src={data.mission.image}
-          alt={data.mission.title}
-          className="w-full max-w-sm mx-auto"
-          width={500}
-            height={500}
-        />
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <Image
+                src={data.vision.image}
+                alt={data.vision.title}
+                className="w-full h-64 object-cover"
+                width={0}
+                height={0}
+              />
+            </div>
+          </div>
+        </div>
       </div>
-        
-        <p className="text-gray-600 mt-4">{data.mission.content}</p>
+
+      <div className="flex flex-col items-center pt-16">
+        <h2 className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-custom">{data.mission.title}</h2>
+        <div className="flex items-center ">
+          <div className="w-2 h-2 rounded-full bg-black"></div>
+          <div className="w-64 h-0.5 bg-black"></div>
+          <div className="w-2 h-2 rounded-full bg-black"></div>
+        </div>
+        <div className="flex flex-row items-center justify-between py-8">
+          <div className="lg:w-1/2 mt-6 lg:mt-0">
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <Image
+                src={data.mission.image}
+                alt={data.mission.title}
+                className="w-full h-64 object-cover"
+                width={0}
+                height={0}
+              />
+            </div>
+          </div>
+          <div className="lg:w-1/2 mt-6 lg:mt-0">
+            <div className="bg-white shadow-md p-6 rounded-lg">
+              <p className="text-gray-600">{data.mission.content}</p>
+            </div>
+          </div>
+        </div>
       </div>
-      
     </div>
   );
 };
