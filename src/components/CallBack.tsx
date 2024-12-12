@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 
-// Define the interface for form data
 interface FormData {
     firstName: string;
     lastName: string;

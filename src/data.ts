@@ -6,12 +6,12 @@ export const headerData = {
   navLinks: [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
-        { path: '#', label: 'Contact'},
+    { path: '#', label: 'Contact' },
   ],
 };
 
 export const carouselImages = [
-  { id: 1, src: '/slider_1.png' }, 
+  { id: 1, src: '/slider_1.png' },
   { id: 2, src: '/slider_2.png' },
   { id: 3, src: '/slider_3.png' },
 ];
@@ -90,7 +90,7 @@ export const product = [
   },
   {
     id: 2,
-    imageUrl:  './lb-logo.svg',
+    imageUrl: './lb-logo.svg',
     alt: "Product 2",
     content: "Machine Finance",
     gradientFrom: "from-green-500",
@@ -133,39 +133,39 @@ export const initialData = {
 
 export const footerData = {
   aboutUs: {
-      title: "About Us",
-      description: "Barwala Leasing & Finance Pvt Ltd is an RBI registered Non-Banking Financial Company (NBFC) established in year 1994. Our vision is to bridge the gap between your financial needs and requirements in an easy, quick, and hassle-free manner.",
-      socialLinks: [
-        { image: "facebook.png", url: "#" },
-        { image: "twitter.png", url: "#" },
-        { image: "linkedin.png", url: "#" },
-           ],
-},
+    title: "About Us",
+    description: "Barwala Leasing & Finance Pvt Ltd is an RBI registered Non-Banking Financial Company (NBFC) established in year 1994. Our vision is to bridge the gap between your financial needs and requirements in an easy, quick, and hassle-free manner.",
+    socialLinks: [
+      { image: "facebook.png", url: "#" },
+      { image: "twitter.png", url: "#" },
+      { image: "linkedin.png", url: "#" },
+    ],
+  },
   quickLinks: [
-      { name: "Home", url: "#" },
-      { name: "About", url: "#" },
-      { name: "Contact", url: "#" },
-      { name: "Privacy Policy", url: "#" },
-      { name: "Terms & Conditions", url: "#" },
-      { name: "Refund & Cancellation Policy", url: "#" },
-      { name: "Policies & Disclosures", url: "#" },
-      { name: "Grievance", url: "#" },
+    { name: "Home", url: "#" },
+    { name: "About", url: "#" },
+    { name: "Contact", url: "#" },
+    { name: "Privacy Policy", url: "#" },
+    { name: "Terms & Conditions", url: "#" },
+    { name: "Refund & Cancellation Policy", url: "#" },
+    { name: "Policies & Disclosures", url: "#" },
+    { name: "Grievance", url: "#" },
   ],
   serviceLocations: [
-      "Hyderabad", "Bengaluru", "Pune", "Chennai", "Mumbai", "Kolkata", "Delhi", "Noida", "Gurugram"
+    "Hyderabad", "Bengaluru", "Pune", "Chennai", "Mumbai", "Kolkata", "Delhi", "Noida", "Gurugram"
   ],
   contactInfo: {
     phone: {
       value: "011-4446-7882",
-      image: "call.png" 
+      image: "call.png"
     },
     email: {
       value: "support@growingbharat.com",
-      image: "email.png" 
+      image: "email.png"
     },
     hours: {
       value: "10am to 6pm or talk to an expert.",
-      image: "time.png" 
+      image: "time.png"
     },
     offices: [
       {
@@ -181,25 +181,25 @@ export const footerData = {
         }
       },
     ],
-  copyright: "Copyright 2024 BARWALA LEASING & FINANCE PVT LTD. All rights reserved",
-},
+    copyright: "Copyright 2024 BARWALA LEASING & FINANCE PVT LTD. All rights reserved",
+  },
 };
 
 export const aboutData = {
-  aboutheader:{
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, tortor quis feugiat ornare, sapien est sollicitudin mi, vitae feugiat justo tortor vitae justo. Pellentesque sollicitudin rutrum faucibus. Cras tristique ultricies dui, in lobortis odio ultrices non. Phasellus ultricies imperdiet mi malesuada sagittis. Integer iaculis dui nunc, vitae porttitor mi facilisis eu. Donec sodales, lectus sit amet tincidunt pharetra, justo odio rutrum elit, sit amet dictum nisl turpis non quam. Aliquam nec viverra risus, et eleifend tortor. Nulla facilisi. Praesent porta euismod ipsum, sit amet porttitor elit viverra in. In turpis odio, eleifend sed arcu vel, pulvinar interdum nulla. Sed et mattis ante. Suspendisse in lorem ut ipsum placerat lacinia."
+  aboutheader: {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, tortor quis feugiat ornare, sapien est sollicitudin mi, vitae feugiat justo tortor vitae justo. Pellentesque sollicitudin rutrum faucibus. Cras tristique ultricies dui, in lobortis odio ultrices non. Phasellus ultricies imperdiet mi malesuada sagittis. Integer iaculis dui nunc, vitae porttitor mi facilisis eu. Donec sodales, lectus sit amet tincidunt pharetra, justo odio rutrum elit, sit amet dictum nisl turpis non quam. Aliquam nec viverra risus, et eleifend tortor. Nulla facilisi. Praesent porta euismod ipsum, sit amet porttitor elit viverra in. In turpis odio, eleifend sed arcu vel, pulvinar interdum nulla. Sed et mattis ante. Suspendisse in lorem ut ipsum placerat lacinia."
   },
   logo: "/path/to/logo.png",
   vision: {
     title: "Our Vision",
     image: "/vision.svg",
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, tortor quis feugiat ornare, sapien est sollicitudin mi, vitae feugiat justo tortor vitae justo. Pellentesque sollicitudin rutrum faucibus. Cras tristique ultricies dui, in lobortis odio ultrices non. Phasellus ultricies imperdiet mi malesuada sagittis. Integer iaculis dui nunc, vitae porttitor mi facilisis eu. Donec sodales, lectus sit amet tincidunt pharetra, justo odio rutrum elit, sit amet dictum nisl turpis non quam. Aliquam nec viverra risus, et eleifend tortor. Nulla facilisi. Praesent porta euismod ipsum, sit amet porttitor elit viverra in. In turpis odio, eleifend sed arcu vel, pulvinar interdum nulla. Sed et mattis ante. Suspendisse in lorem ut ipsum placerat lacinia.",
-     
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, tortor quis feugiat ornare, sapien est sollicitudin mi, vitae feugiat justo tortor vitae justo. Pellentesque sollicitudin rutrum faucibus. Cras tristique ultricies dui, in lobortis odio ultrices non. Phasellus ultricies imperdiet mi malesuada sagittis. Integer iaculis dui nunc, vitae porttitor mi facilisis eu. Donec sodales, lectus sit amet tincidunt pharetra, justo odio rutrum elit, sit amet dictum nisl turpis non quam. Aliquam nec viverra risus, et eleifend tortor. Nulla facilisi. Praesent porta euismod ipsum, sit amet porttitor elit viverra in. In turpis odio, eleifend sed arcu vel, pulvinar interdum nulla. Sed et mattis ante. Suspendisse in lorem ut ipsum placerat lacinia.",
+
   },
   mission: {
     title: "Our Mission",
-    image: "/path/to/mission-image.png", 
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, tortor quis feugiat ornare, sapien est sollicitudin mi, vitae feugiat justo tortor vitae justo. Pellentesque sollicitudin rutrum faucibus. Cras tristique ultricies dui, in lobortis odio ultrices non. Phasellus ultricies imperdiet mi malesuada sagittis. Integer iaculis dui nunc, vitae porttitor mi facilisis eu. Donec sodales, lectus sit amet tincidunt pharetra, justo odio rutrum elit, sit amet dictum nisl turpis non quam. Aliquam nec viverra risus, et eleifend tortor. Nulla facilisi. Praesent porta euismod ipsum, sit amet porttitor elit viverra in. In turpis odio, eleifend sed arcu vel, pulvinar interdum nulla. Sed et mattis ante. Suspendisse in lorem ut ipsum placerat lacinia.",
-    
+    image: "/path/to/mission-image.png",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, tortor quis feugiat ornare, sapien est sollicitudin mi, vitae feugiat justo tortor vitae justo. Pellentesque sollicitudin rutrum faucibus. Cras tristique ultricies dui, in lobortis odio ultrices non. Phasellus ultricies imperdiet mi malesuada sagittis. Integer iaculis dui nunc, vitae porttitor mi facilisis eu. Donec sodales, lectus sit amet tincidunt pharetra, justo odio rutrum elit, sit amet dictum nisl turpis non quam. Aliquam nec viverra risus, et eleifend tortor. Nulla facilisi. Praesent porta euismod ipsum, sit amet porttitor elit viverra in. In turpis odio, eleifend sed arcu vel, pulvinar interdum nulla. Sed et mattis ante. Suspendisse in lorem ut ipsum placerat lacinia.",
+
   },
 };
