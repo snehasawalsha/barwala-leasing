@@ -27,9 +27,7 @@ const TermsOfUse: React.FC = () => {
                     </div>
                 ))}
             </main>
-            <footer className="bg-gray-800 text-white p-4 text-center">
-                <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
-            </footer>
+            
         </div>
     );
 };
